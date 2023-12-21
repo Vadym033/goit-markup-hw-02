@@ -18,17 +18,18 @@ ul {
 /*---------------------------------*/
 
 .header-logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-family: "Raleway", sans-serif;
 }
 
 .header-logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .header-menu-link {
@@ -63,10 +64,10 @@ ul {
 /*--------------h1---------------*/
 /*---------------------------------*/
 
-.section-h1 {
+.section-title {
   background: #2e2f42;
 }
-.h1 {
+.title {
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -74,39 +75,33 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.button-h1-orderservice:hover {
+.button-title-orderservice:hover,
+.button-title-orderservice:focus {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
-.button-h1-orderservice {
+.button-title-orderservice {
   color: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
-.button-h1-orderservice {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border-radius: 4px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba 0, 0, 0, 0.15;
-}
-
-/*----------benefits------------*/
+/*----------ourbenefits------------*/
 /*---------------------------*/
-.h2-h3-benefits {
+.subtitle-ourbenefits {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.h2-h3-benefits-p {
+.ourbenefits-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -117,6 +112,7 @@ ul {
 /*-----------ourteam----------*/
 
 .ourteam {
+  background: #f4f4fd;
 }
 .ourteam-title {
   color: #2e2f42;
@@ -128,6 +124,7 @@ ul {
   text-transform: capitalize;
 }
 .ourteam-list {
+  background: #ffffff;
 }
 .ourteam-item {
 }
@@ -141,7 +138,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.2em;
 }
-.ourteam-position {
+.ourteam-profession {
   color: #434455;
   text-align: center;
   font-size: 16px;
@@ -192,9 +189,15 @@ ul {
 .footer {
   background: #2e2f42;
 }
-.footer-logo {
+
+.footer-logo span {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -207,9 +210,4 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-
-.footer-logo span {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
 }
