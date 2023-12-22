@@ -112,8 +112,13 @@ ul {
 /*-----------ourteam----------*/
 
 .ourteam {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
 }
+
+.ourteam-list {
+  background-color: #ffffff;
+}
+
 .ourteam-title {
   color: #2e2f42;
   text-align: center;
@@ -123,9 +128,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.ourteam-list {
-  background-color: #ffffff;
-}
+
 .ourteam-item {
 }
 .ourteam-img {
@@ -190,7 +193,7 @@ ul {
   background: #2e2f42;
 }
 
-.footer-logo span {
+.footer-logo-studio {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
 }
